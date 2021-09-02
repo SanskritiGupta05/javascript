@@ -1,5 +1,5 @@
 <!-- About this forlder-->
 
 This folder contains self-help notes on JavaScript, curated solely for future quick rivisions.
-contents are curated majorly from platforms like : FreeCodeCamp & YouTube.
+contents are curated majorly from platforms like : FreeCodeCamp, YouTube & javascript.info.
 Will be adding more while learning Javascript :D
