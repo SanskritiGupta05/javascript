@@ -30,7 +30,7 @@ In contrast, __Functional programming__ is a form of __declarative programming__
 The ` map method` iterates over each item in an array and returns a new array containing the results of calling the callback function on each element. It does this without mutating the original array. 
 [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) 
 
-```
+```js
 const users = [
     {name: 'John', age: 34},
     {name: 'Amy', age: 20},
@@ -56,7 +56,7 @@ it takes another function as its argument.
 
 The `slice method` returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). 
 
-```
+```js
 var arr = ["Cat","Dog","Tiger","Zebra"];
 var newArray = arr.slice(1,3); //newArray would have the value ["Dog","Tiger"]
 ```
@@ -64,7 +64,7 @@ var newArray = arr.slice(1,3); //newArray would have the value ["Dog","Tiger"]
 
 **Concatenation** means to join items end to end. JavaScript offers the **concat** method for both strings and arrays that work in the same way. 
 
-```
+```js
 [1,2,3].concat([4,5,6]);
 
 // returned array would be [1,2,3,4,5,6]
@@ -81,7 +81,7 @@ The `sort method` sorts the elements of an array according to the callback funct
     * If compareFunction(a,b) returns a value **greater than 0**for two elements a and b, then b will come before a.
     * compareFunction(a,b) returns a value **equal to 0** for two elements a and b, then a and b will remain unchanged.
 
-```
+```js
 var str = "Hello World";
 var bySpace = str.split(" ");
 
@@ -91,7 +91,7 @@ var bySpace = str.split(" ");
 `join() mathod` is used to join the elements of an array together to create a string. 
 it takes an argument for delimiter that is used toseperate the array elments in the string.
 
-```
+```js
 var arr = ["Hello","World"];
 var str = arr.join(" ");
 
@@ -112,7 +112,7 @@ The **arity** of a function is the number of arguments it requires. **Currying**
 
 * it restructures a function so it takes one argument, then returns another function that takes the next argument, and so on. 
 
-```
+```js
 function unCurried(x,y){
     return x+y;
 }
@@ -129,7 +129,7 @@ curried(1)(2)  // return 3
 
 Similarly, *partial application* can be described as applying a few arguments to a function at a time and returning another function that is applied to more arguments. 
 
-```
+```js
 function impartial(x,y,z){
     return x + y + z;
 }
