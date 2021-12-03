@@ -25,10 +25,9 @@ A Vanilla JS quiz app which fetches trivial general knowledge questions from an 
 [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
 
 * Using the `Set.prototype.add()` method in js to add the const- classToApply which basically display red if the clicked option is a wrong answer and displays green when answer is right. [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/add)
-<br>
-Similarly with `Set.prototype.remove()` method. [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/remove) <br>
+Similarly with `Set.prototype.remove()` method. [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/remove)
 
-* Using `setTimeout()` method to remove the class (which display red on wronganwer and green on right answer) after getting applied not immediately but by creating some delay.
+* Using `setTimeout()` method to remove the class (which display red on wrong answer and green on right answer) after getting applied not immediately but by creating some delay.
 
 * Using the `keyup` event in end.js file, to enable the saving of highscore only when a character of the username is typed inside the input field otherwise disable it. [Javascript.info](https://javascript.info/keyboard-events) 
 
