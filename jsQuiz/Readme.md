@@ -10,9 +10,9 @@ A Vanilla JS quiz app which fetches trivial general knowledge questions from an 
 - [x] Create the Highscore Display
 - [x] Create and style the End Page
 - [x] Save Highscores in Local Display
-- [] Load and Display Highscores from local storage.
-- [] Fetch questions from Local JSON File
-- [] Fetch API Questions from Open Trivia API
+- [ ] Load and Display Highscores from local storage.
+- [ ] Fetch questions from Local JSON File
+- [ ] Fetch API Questions from Open Trivia API
 
 ### Things I've learned while making this project :
 
